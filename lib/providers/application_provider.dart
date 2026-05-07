@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import '../models/job_application_model.dart';
-
+// basic logic
 class ApplicationProvider with ChangeNotifier {
   Box<JobApplicationModel>? _appBox;
   List<JobApplicationModel> _applications = [];

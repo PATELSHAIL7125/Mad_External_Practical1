@@ -4,7 +4,7 @@ class GlassCard extends StatelessWidget {
   final Widget child;
   final List<Color>? gradient;
   const GlassCard({super.key, required this.child, this.gradient});
-
+// basic logic
   @override
   Widget build(BuildContext context) {
     return Container(
